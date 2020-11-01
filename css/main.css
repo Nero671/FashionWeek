@@ -1,0 +1,374 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Poppins',
+  sans-serif;
+  font-size: 20px;
+  color: #22262A;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3, 
+h4 {
+  font-family: 'Poppins';
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1133px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 42px; 
+}
+
+.nav-link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 20px;
+}
+
+.shop-icons i{
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+#main {
+  background: url('../img/mainBg.png') no-repeat center top / cover;
+  position: relative;
+  height: 100vh;
+}
+
+.intro-text {
+  position: absolute;
+  bottom: 105px;
+  right: 11%;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 120px;
+}
+
+h1::before, h1::after {
+  content: 'NEW TREND';
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h1::after {
+  content: 'An exclusive selection of this season`s trends';
+}
+
+.main-btn {
+  margin-top: 27px;
+}
+
+.btn {
+  padding: 4px 28px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #22262A;
+  border: 1px solid #22262A;
+  margin-right: 34px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 123px;
+}
+
+.category-item:last-child {
+  position: relative;
+}
+
+.btn-category {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  color: #22262A;
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 111px;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 65px;
+  flex-wrap: wrap;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-text {
+  margin-top: 38px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 0px;
+}
+
+h4:before {
+  content: 'IGURE';
+  display: block;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: red;
+}
+
+.price span {
+  text-decoration: line-through;
+  color: #22262A;
+  margin-right: 15px;
+}
+
+.btn-avone {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: right;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.btn-avone::after {
+  content: '';
+  display: block;
+  width: inherit;
+  height: 1px;
+  background: #000;
+  left: 85px;
+}
+
+.avone-item {
+  margin-top: 95px;
+}
+
+#tachen {
+  background: url('../img/bg2.png') no-repeat center top / cover;
+  position: relative;
+  height: 775px;
+  margin-top: 121px;
+}
+
+.tachen-text {
+  position: absolute;
+  bottom: 129px;
+}
+
+.tachen-title::after {
+  content: '';
+}
+
+.tachen-title::before {
+  content: 'OWN THE DAY';
+}
+
+footer {
+  background-color: #F2F8FC;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item:first-child {
+  flex-basis: 40%;
+}
+
+.info-item:last-child {
+  margin-left: 200px;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.info-text {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  margin-top: 41px;
+  margin-bottom: 16px;
+}
+
+.address img {
+  margin-right: 20px;
+}
+
+.contacts-link:after {
+  content: '';
+  display: block;
+  width: calc(100% - 163px);
+  height: 1px;
+  background-color: black;
+  margin-bottom: 8px;
+}
+
+.social-media-items {
+  margin-top: 16px;
+}
+
+.social-media-items i{
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  border: none;
+  padding: 11px 23px;
+  width: 532px;
+}
+
+.btn-form {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #22262A;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.list-item__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+
+.list-link {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 21px;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #fff;
+  padding: 35px 0;
+  text-align: center;
+  margin-top: 141px;
+}
+
+
+
